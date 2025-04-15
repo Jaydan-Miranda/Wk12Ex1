@@ -4,8 +4,8 @@ class MobilePhone:
     def __init__(self, brand, model, storage_capacity, price):
         self.brand = brand
         self.model = model
-        self.storage_capacity = storage_capacity  # in GB
-        self.price = price  # in USD
+        self.storage_capacity = storage_capacity 
+        self.price = price 
 
     # Method to display all phone details
     def display_phone_details(self):
@@ -16,7 +16,7 @@ class MobilePhone:
         print()
 
 
-# Main program that creates two phone objects and displays their info
+#program that creates two phone objects and displays their info
 phone1 = MobilePhone("Apple", "iPhone 16", 128, 999)
 phone2 = MobilePhone("Samsung", "Galaxy S26", 256, 799)
 
